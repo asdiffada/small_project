@@ -3,8 +3,8 @@ import React, { useEffect, useState } from "react";
 import { ethers } from "ethers";
 import votingAbi from "./SimpleVoting.json";
 
-const CONTRACT_ADDRESS = "0x5FbDB2315678afecb367f032d93F642f64180aa3";
-const PRIVATE_KEY = "0x59c6995e998f97a5a0044966f0945389dc9e86dae88c7a8412f4603b6b78690d"; // dari akun pertama Hardhat
+const CONTRACT_ADDRESS = " ";
+const PRIVATE_KEY = " "; // dari akun pertama Hardhat
 
 const App = () => {
   const [candidates, setCandidates] = useState([]);
